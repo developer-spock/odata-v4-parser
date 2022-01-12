@@ -1,5 +1,5 @@
 {
-  "name": "odata-v4-parser",
+  "name": "spock-odata-v4-parser",
   "version": "0.2.0",
   "description": "OData v4 Parser",
   "main": "lib/parser.js",
