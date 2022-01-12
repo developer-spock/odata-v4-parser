@@ -222,7 +222,7 @@ export namespace Lexer {
     export function DIGIT(value: number): boolean { return (value >= 0x30 && value <= 0x39); }
     export function HEXDIG(value: number): boolean { return Lexer.DIGIT(value) || Lexer.AtoF(value); }
     export function AtoF(value: number): boolean { return (value >= 0x41 && value <= 0x46) || (value >= 0x61 && value <= 0x66); }
-    export function SPECIAL(value: number): boolean { console.log("여길오면서도?"); return (value >= 0x21 && value <= 0x2F) || (value >= 0x3A && value <= 0x40) || (value >= 0x5B && value <= 0x60) || (value >= 0x7B && value <= 0x7E); }
+    export function SPECIAL(value: number): boolean { return (value >= 0x21 && value <= 0x2F) || (value >= 0x3A && value <= 0x40) || (value >= 0x5B && value <= 0x60) || (value >= 0x7B && value <= 0x7E); }
     export function DQUOTE(value: number): boolean { return value === 0x22; }
     export function SP(value: number): boolean { return value === 0x20; }
     export function HTAB(value: number): boolean { return value === 0x09; }
