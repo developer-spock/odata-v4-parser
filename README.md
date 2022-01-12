@@ -1,5 +1,7 @@
 # OData v4 Parser
 
+This code is some improved version from https://github.com/jaystack/odata-v4-parser.
+
 OData v4 parser based on OASIS Standard OData v4 ABNF grammar
 
 ## How to build

@@ -1,17 +1,17 @@
 {
   "name": "odata-v4-parser",
-  "version": "0.1.29",
+  "version": "0.2.0",
   "description": "OData v4 Parser",
   "main": "lib/parser.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaystack/odata-v4-parser.git"
+    "url": "https://github.com/developer-spock/odata-v4-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/jaystack/odata-v4-parser/issues"
+    "url": "https://github.com/developer-spock/odata-v4-parser/issues"
   },
-  "homepage": "https://github.com/jaystack/odata-v4-parser#readme",
-  "author": "JayStack",
+  "homepage": "https://github.com/developer-spock/odata-v4-parser#readme",
+  "author": "developer-spock",
   "license": "MIT",
   "scripts": {
     "prebuild": "npm run lint",
